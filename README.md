@@ -21,3 +21,20 @@
 | POST       | /products        | 201        | 상품을 추가한다.             |
 | PUT        | /products/{id}   | 200        | 상품 정보를 업데이트한다.        |
 | DELETE     | /products/{id}   | 204        | 상품을 삭제한다.             |
+
+## 코드리뷰 컨벤션
+
+<img width="453" alt="스크린샷 2023-05-25 오후 5 55 07" src="https://github.com/starlight-shopping-order/jwp-shopping-order/assets/107979804/024f58db-61e2-454c-8f4d-b6f6a651e087">
+
+- Request Change: 적극적으로 반영을 고려해 주세요.
+- Comment: 웬만하면 반영해 주세요.
+- Approve: 반영해도 좋고, 넘어가도 좋은 사소한 의견입니다.
+
+## Issue 및 PR 컨벤션
+
+1. issue 생성 및 체크리스트 생성
+2. 브랜치 생성 
+  - 브랜치 이름
+    - `feature/~`: 기능 개발
+    - `busfix/~`: 심각하지는 않지만 문제가 있는 기능 수정
+    - `hotfix/~`: 긴급하게 수정해야 할 사항
